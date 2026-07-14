@@ -55,9 +55,9 @@ For your first milestone, describe what your project is and how you plan to buil
 
 # Starter Project
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TkALr4ICeYA?si=9RuQ742-VpvEKwKQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Explaination
+Explanation
 
 My starter project was the adjustable LED light. It consists of a circuit board, 3 sliders, each controlling the intensity of either red, green, or blue light on the LED, a USB-C adapter, and a multi-colored LED. The main goal of the project is to solder all of the parts to the circuit board in order to make the light color adjustable when powered. 
 
