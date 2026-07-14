@@ -40,18 +40,15 @@ For your second milestone, explain what you've worked on since your previous mil
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone 
-
+My second milestone was to wire all of the modules together, so that when code is downloaded and run on the machine, nothing breaks or stops working. Something that suprised me about this milestone was 
 # First Milestone
-
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
+My First Milestone was to acquire all parts for the car, which includes the 2 TT wheels, 1 Universal Wheel, 2 TT motors, the R3 board, L9110 Module, Ultrasonic Module, 2 IR obstacle Avoidance Modules, mini bread board, nuts and bolts to secure them, and wires to connect parts together. Along with Gathering all parts, I also needed to assemble them onto the base plate, so that the car can actually drive.'
+One challenge that I faced when gathering and assembling the car was not having correctly sized screws to attach some modules. I solved this problem by asking around and finding replacement screws from the spare things cabinet.
+My plan after this is to wire all the parts together (Milestone 2), and download the self driving car code onto the R3 Board (final Milestone)
+  
 
 # Starter Project
 
@@ -71,18 +68,83 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
-```c++
+const int A_1B = 5;
+const int A_1A = 6;
+const int B_1B = 9;
+const int B_1A = 10;
+const int rightIR = 7;
+const int leftIR = 8;
+const int trigPin = 3;
+const int echoPin = 4;
+
 void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
+    pinMode(A_1B, OUTPUT);
+    pinMode(A_1A, OUTPUT);
+    pinMode(B_1B, OUTPUT);
+    pinMode(B_1A, OUTPUT);
+    pinMode(echoPin, INPUT);
+    pinMode(trigPin, OUTPUT);
+}
+void moveForward(int speed) {
+    analogWrite(A_1B, 0);
+    analogWrite(A_1A, speed);
+    analogWrite(B_1B, speed);
+    analogWrite(B_1A, 0);
+}
+void moveBackward(int speed) {
+    digitalWrite(A_1B, speed);
+    digitalWrite(A_1A, 0);
+    digitalWrite(B_1B, 0);
+    digitalWrite(B_1A, speed);
+}
+void backLeft(int speed) {
+    analogWrite(A_1B, speed);
+    analogWrite(A_1A, 0);
+    analogWrite(B_1B, 0);
+    analogWrite(B_1A, 0);
+}
+void backRight(int speed) {
+    analogWrite(A_1B, 0);
+    analogWrite(A_1A, 0);
+    analogWrite(B_1B, 0);
+    analogWrite(B_1A, speed);
+}
+float readSensorData() {
+    digitalWrite(trigPin, LOW);
+    delayMicroseconds(2);
+    digitalWrite(trigPin, HIGH);
+    delayMicroseconds(10);
+    digitalWrite(trigPin, LOW);
+    float distance = pulseIn(echoPin, HIGH) / 58.00; //Equivalent to (340m/s*1us)/2
+    return distance;
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
 
+    int left = digitalRead(leftIR);   // 0: Obstructed  1: Empty
+    int right = digitalRead(rightIR);
+
+    if (!left && right) {
+        backLeft(150);
+    } else if (left && !right) {
+        backRight(150);
+    } else if (!left && !right) {
+        moveBackward(150);
+    } else {
+        float distance = readSensorData();
+        Serial.println(distance);
+        if (distance > 50) { // Safe
+            moveForward(200);
+        } else if (distance < 10 && distance > 2) { // Attention
+            moveBackward(200);
+            delay(1000);
+            backLeft(150);
+            delay(500);
+        } else {
+            moveForward(150);
+        }
+    }
 }
-```
 
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
