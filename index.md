@@ -26,7 +26,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
-
+My third milestone was to download the code onto the car R3 board. My biggest challenge at BSE was figuring out the arduino coding parts of the assembly. I solved this problem by rewriting the code for the self driving car, which eventually made the code run smoothly. Some key topics I learned about were the aforementioned arduino coding, as well as wiring of the car's components. Things I hope to learn more about in the future is self making circuitry/wiring components together.
 
 
 # Second Milestone
@@ -39,14 +39,14 @@ For your second milestone, explain what you've worked on since your previous mil
 - Technical details of what you've accomplished and how they contribute to the final goal
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
-My second milestone was to wire all of the modules together, so that when code is downloaded and run on the machine, nothing breaks or stops working. Something that suprised me about this milestone was 
+- What needs to be completed before your final milestone
+  My second milestone was to wire all of the modules together, so that when code is downloaded and run on the machine, nothing breaks or stops working.  One Challenge I faced during this milestone was figuring out how the wiring system works on the car. The next thing that needs to be done is to write and download the code onto the R3 board of the car and to make sure that all sensors work properly with the code.
 # First Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 My First Milestone was to acquire all parts for the car, which includes the 2 TT wheels, 1 Universal Wheel, 2 TT motors, the R3 board, L9110 Module, Ultrasonic Module, 2 IR obstacle Avoidance Modules, mini bread board, nuts and bolts to secure them, and wires to connect parts together. Along with Gathering all parts, I also needed to assemble them onto the base plate, so that the car can actually drive.'
-One challenge that I faced when gathering and assembling the car was not having correctly sized screws to attach some modules. I solved this problem by asking around and finding replacement screws from the spare things cabinet.
+One challenge that I faced when gathering and assembling the car was not having correctly sized screws to attach some modules. I solved this problem by asking around and finding replacement screws from the spare parts cabinet.
 My plan after this is to wire all the parts together (Milestone 2), and download the self driving car code onto the R3 Board (final Milestone)
   
 
