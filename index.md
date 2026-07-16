@@ -6,8 +6,6 @@ My project is a remote controlled car with a mounted laser turret. The car base 
 |:--:|:--:|:--:|:--:|
 | Braden G | Berkeley High School | Civil Engineering | Incoming Senior
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
-
 ![Headstone Image](logo.svg)
   
 # Final Milestone
@@ -21,19 +19,38 @@ My third milestone was to download the code onto the car R3 board. My biggest ch
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/U_TKEh0B1O8?si=ubsUrD8N63fN-T2N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-  My second milestone was to wire all of the modules together, so that when code is downloaded and run on the machine, nothing breaks or stops working.  One Challenge I faced during this milestone was figuring out how the wiring system works on the car. The next thing that needs to be done is to write and download the code onto the R3 board of the car and to make sure that all sensors work properly with the code.
+Explanation
+
+My second milestone was to wire all of the modules together, so that when code is downloaded and run on the machine, nothing breaks or stops working.
+
+Challenges
+
+One Challenge I faced during this milestone was figuring out how the wiring system works on the car and deciding whether the videos or schematics were better to follow. I solved this problem by following the schematics, as they were clearer to follow than the videos.
+
+Next Steps
+
+The next thing that needs to be done is to write and download the code onto the R3 board of the car and to make sure that all sensors work properly with the code.
 # First Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-My First Milestone was to acquire all parts for the car, which includes the 2 TT wheels, 1 Universal Wheel, 2 TT motors, the R3 board, L9110 Module, Ultrasonic Module, 2 IR obstacle Avoidance Modules, mini bread board, nuts and bolts to secure them, and wires to connect parts together. Along with Gathering all parts, I also needed to assemble them onto the base plate, so that the car can actually drive.'
+Explanation
+
+My First Milestone was to acquire all parts for the car, which includes the 2 TT wheels, 1 Universal Wheel, 2 TT motors, the R3 board, L9110 Module, Ultrasonic Module, 2 IR obstacle Avoidance Modules, mini bread board, nuts and bolts to secure them, and wires to connect parts together. Along with Gathering all parts, I also needed to assemble them onto the base plate, so that the car can actually drive.
+
+Challenges
+
 One challenge that I faced when gathering and assembling the car was not having correctly sized screws to attach some modules. I solved this problem by asking around and finding replacement screws from the spare parts cabinet.
-My plan after this is to wire all the parts together (Milestone 2), and download the self driving car code onto the R3 Board (final Milestone)
+
+Next Steps
+
+My plan after this is to wire all the parts together (Milestone 2), and download the self driving car code onto the R3 Board (final Milestone). 
   
 
 # Starter Project
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TkALr4ICeYA?si=9RuQ742-VpvEKwKQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 Explanation
 
