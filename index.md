@@ -148,11 +148,7 @@ void loop() {
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Sunfounder R3 Board | Runs code for the car | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| L9110 Motor Driver Module | Controls motor functions/coordination | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| TT Motor | Motors to make wheels spin | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Ultrasonic Module | Constantly checks for the distance between it and any object ahead | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Obstacle Avoidance Module | Constantly checks for objects directly in front | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Sunfounder 3-in-1 starter kit | Contains car and all vanilla parts | $60 | <a https://www.amazon.com/SunFounder-Compatible-Tutorials-Including-Controller/dp/B0B778L1DZ/ref=sr_1_1_sspa?crid=1RKYNDFZFV9K5&dib=eyJ2IjoiMSJ9.D9LrCZJnua_keVMLJz2FWhhVJbiJ6dlnOqZ4gzJikw0.Y29jV-luir_nypOKQWGuCDlusQMU0MDZTq49-3jb74M&dib_tag=se&keywords=sunfounder+3+in+1%5C&qid=1784677123&s=electronics&sprefix=sunfounder+3+in+%2Celectronics%2C219&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1> Link </a> |
 
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
