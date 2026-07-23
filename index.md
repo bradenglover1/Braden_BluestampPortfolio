@@ -1,17 +1,27 @@
 # Remote Control Car with Laser Turret
-My project is a remote controlled car with a mounted laser turret. The car base is the Sunfounder car, while the mounted turret is a 3D printed able to aim on 2 axes. My biggest challenge has been making code work, because I have very little experience with coding. A big takeaway for me was ... . (triumph). 
+My project is a remote controlled car with a mounted laser turret. The car base is the Sunfounder car, while the mounted turret is made of 3D printed parts able to aim on 2 axes, controlled by 2 servo motors, with a laser attached as the weapon.
 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Braden G | Berkeley High School | Civil Engineering | Incoming Senior
 
-![Headstone Image](logo.svg)
+![Headstone Image](<img width="772" height="1022" alt="image" src="https://github.com/user-attachments/assets/7b508eaf-e32c-4904-adb8-cd69337d3143" />)
   
 # Final Milestone
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mZH2pDb5PGI?si=6TCj-q0r3tglfHjh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-My third milestone was to download the code onto the car R3 board. My biggest challenge at BSE was figuring out the arduino coding parts of the assembly. I solved this problem by rewriting the code for the self driving car, which eventually made the code run smoothly. Some key topics I learned about were the aforementioned arduino coding, as well as wiring of the car's components. Things I hope to learn more about in the future is self making circuitry/wiring components together.
+Explanation
+
+My Final milestone was to download the code onto the car's R3 board and to get it working as a self driving car. I chose this because it was the last thing in my way before the base project would have been completed.
+
+Challenges
+
+One challenge I faced while getting the code onto the R3 board was the code not running correctly. I solved this problem by going through each error and adjusting accordingly until the project worked. The main problem was that some movement functions were using analogue movement, while others were using digital movement.
+
+Next Steps
+
+The 2 main next steps for me are, in order, 1. Change the total dependence on sensor movmeent, with remote controlled movements. The best option for this to my knowledge is the IR sensor and remote. 2. 3D print parts for attach a two axis laser pointer turret to the car, hopefully controlled remotly by a jystick, as well as adjust the wiring and circuitry organization on the car.
 
 
 # Second Milestone
@@ -66,82 +76,147 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 # Code
 Here is the code that my car runs on
 ```
+#include <Servo.h> // servo motor library
+#include <IRremote.hpp> // IR remote library
+
+//setting pins to different outputs, ie, IRreviever, wheel motors, servo motors.
+const int IR_RECEIVE_PIN = 12; 
 const int A_1B = 5;
 const int A_1A = 6;
 const int B_1B = 9;
 const int B_1A = 10;
-const int rightIR = 7;
-const int leftIR = 8;
-const int trigPin = 3;
-const int echoPin = 4;
+const int servoPinY = 3;
+const int servoPinX = 2;
+//creating X and Y axis servo objects
+Servo servoY;
+Servo servoX;  
+//setting integer starting values
+int x = 0; 
+int y = 90;
+
 
 void setup() {
+    Serial.begin(9600);//communication channel for arduino uno board
+    //attaching servos and sending them to starting positions
+    servoY.attach(3);
+    servoY.write(0);
+    servoX.attach(2);
+    servoX.write(90);
+    //allow IR reviever to being recieving
+    IrReceiver.begin(IR_RECEIVE_PIN, ENABLE_LED_FEEDBACK);  // Start the receiver
+    Serial.println("REMOTE CONTROL START");
+    //attach wheel motors
     pinMode(A_1B, OUTPUT);
     pinMode(A_1A, OUTPUT);
     pinMode(B_1B, OUTPUT);
     pinMode(B_1A, OUTPUT);
-    pinMode(echoPin, INPUT);
-    pinMode(trigPin, OUTPUT);
+    delay(1000);
 }
-void moveForward(int speed) {
-    analogWrite(A_1B, 0);
-    analogWrite(A_1A, speed);
-    analogWrite(B_1B, speed);
-    analogWrite(B_1A, 0);
+//function for moving forward using TT motors
+void moveForward() {
+    digitalWrite(A_1B, LOW);
+    digitalWrite(A_1A, HIGH);
+    digitalWrite(B_1B, HIGH);
+    digitalWrite(B_1A, LOW);
 }
-void moveBackward(int speed) {
-    digitalWrite(A_1B, speed);
-    digitalWrite(A_1A, 0);
-    digitalWrite(B_1B, 0);
-    digitalWrite(B_1A, speed);
+//function for moving backwards using TT motors
+void moveBackward() {
+    digitalWrite(A_1B, HIGH);
+    digitalWrite(A_1A, LOW);
+    digitalWrite(B_1B, LOW);
+    digitalWrite(B_1A, HIGH);
 }
-void backLeft(int speed) {
-    analogWrite(A_1B, speed);
-    analogWrite(A_1A, 0);
-    analogWrite(B_1B, 0);
-    analogWrite(B_1A, 0);
+//same as above but right
+void turnRight() {
+    digitalWrite(A_1B, HIGH);
+    digitalWrite(A_1A, LOW);
+    digitalWrite(B_1B, HIGH);
+    digitalWrite(B_1A, LOW);
 }
-void backRight(int speed) {
-    analogWrite(A_1B, 0);
-    analogWrite(A_1A, 0);
-    analogWrite(B_1B, 0);
-    analogWrite(B_1A, speed);
+//and left
+void turnLeft() {
+    digitalWrite(A_1B, LOW);
+    digitalWrite(A_1A, HIGH);
+    digitalWrite(B_1B, LOW);
+    digitalWrite(B_1A, HIGH);
 }
-float readSensorData() {
-    digitalWrite(trigPin, LOW);
-    delayMicroseconds(2);
-    digitalWrite(trigPin, HIGH);
-    delayMicroseconds(10);
-    digitalWrite(trigPin, LOW);
-    float distance = pulseIn(echoPin, HIGH) / 58.00; //Equivalent to (340m/s*1us)/2
-    return distance;
+//function to stop all movement
+void fullstop() {
+    digitalWrite(A_1B, LOW);
+    digitalWrite(A_1A, LOW);
+    digitalWrite(B_1B, LOW);
+    digitalWrite(B_1A, LOW);
 }
-
+//continuous loop for whole project
 void loop() {
-
-    int left = digitalRead(leftIR);   // 0: Obstructed  1: Empty
-    int right = digitalRead(rightIR);
-
-    if (!left && right) {
-        backLeft(150);
-    } else if (left && !right) {
-        backRight(150);
-    } else if (!left && !right) {
-        moveBackward(150);
-    } else {
-        float distance = readSensorData();
-        Serial.println(distance);
-        if (distance > 50) { // Safe
-            moveForward(200);
-        } else if (distance < 10 && distance > 2) { // Attention
-            moveBackward(200);
-            delay(1000);
-            backLeft(150);
-            delay(500);
-        } else {
-            moveForward(150);
-        }
-    }
+  //if the reciever recieves a button input from the IR remote, it prints the button ID 
+  if (IrReceiver.decode()) {
+    uint32_t key = IrReceiver.decodedIRData.command;
+    Serial.println(key, HEX);
+    //if key 2 is pressed(ID of 18), move forward
+    if (key == 0x18) {//0x is before the ID because some ID's include letters, and 0x allows reading of letters and numbers
+      moveForward();//calls function 
+      Serial.println("HELLO");//says hello in console, to confirm action
+      delay(10);
+      }
+    //if key 4 is pressed(ID of 8), turn left
+    if (key == 0x8) {
+      turnLeft();
+      Serial.println("HELLO");
+      delay(10);
+      }
+    //if key 6 is pressed(ID of 5a), turn right
+    if (key == 0x5a) {
+      turnRight();
+      Serial.println("HELLO");
+      delay(10);
+      }
+    //if key 8 is pressed(ID of 52), move backwards
+    if (key == 0x52) {
+      moveBackward();
+      Serial.println("HELLO");
+      delay(10);
+      }
+    //if key 5 is pressed(ID of 1c), stop
+    if (key == 0x1c) {
+      fullstop();
+      Serial.println("HELLO");
+      delay(10);
+      }
+    //if key - is pressed(ID of 15), aim laser upwards
+    if (key == 0x15) {
+      y=y+2;//add 2 to the Y integer
+      servoY.write(y); //write the new Y angle to the servo
+      Serial.print(" : ");
+      Serial.print(y); //display new Y value in console
+      Serial.print(" : ");
+      }
+    //same as above, but for key below -, and aims laser down
+    if (key == 0x19) {
+      y=y-2;
+      servoY.write(y); 
+      Serial.print(" : ");
+      Serial.print(y); 
+      Serial.print(" : ");
+      }
+    //same as above, but controls positive X axis on u/sd button
+    if (key == 0x16) {
+      x=x+2;
+      servoX.write(x);
+      Serial.print(" : ");
+      Serial.print(x); 
+      Serial.print(" : ");
+      }
+    //same as above, but controls negative x axis on 0 button
+    if (key == 0xd) {
+      x=x-2;
+      servoX.write(x);
+      Serial.print(" : ");
+      Serial.print(x); 
+      Serial.print(" : ");
+      }
+    IrReceiver.resume();  // Enable receiving of the next value   // Waits 1 second
+  }
 }
 ```
 # Bill of Materials
