@@ -6,7 +6,7 @@ My project is a remote controlled car with a mounted laser turret. The car base 
 |:--:|:--:|:--:|:--:|
 | Braden G | Berkeley High School | Civil Engineering | Incoming Senior
 
-![Headstone Image](<img width="772" height="1022" alt="image" src="https://github.com/user-attachments/assets/7b508eaf-e32c-4904-adb8-cd69337d3143" />)
+!(<img width="772" height="1022" alt="image" src="https://github.com/user-attachments/assets/7b508eaf-e32c-4904-adb8-cd69337d3143" />)
   
 # Final Milestone
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mZH2pDb5PGI?si=6TCj-q0r3tglfHjh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
