@@ -223,7 +223,8 @@ void loop() {
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Sunfounder 3-in-1 starter kit | Contains car and all vanilla parts | $60 | <a https://www.amazon.com/SunFounder-Compatible-Tutorials-Including-Controller/dp/B0B778L1DZ/ref=sr_1_1_sspa?crid=1RKYNDFZFV9K5&dib=eyJ2IjoiMSJ9.D9LrCZJnua_keVMLJz2FWhhVJbiJ6dlnOqZ4gzJikw0.Y29jV-luir_nypOKQWGuCDlusQMU0MDZTq49-3jb74M&dib_tag=se&keywords=sunfounder+3+in+1%5C&qid=1784677123&s=electronics&sprefix=sunfounder+3+in+%2Celectronics%2C219&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1> Link </a> |
+| Sunfounder 3-in-1 starter kit | Contains car and all vanilla parts | $60 | https://www.amazon.com/SunFounder-Compatible-Tutorials-Including-Controller/dp/B0B778L1DZ/ref=sr_1_1_sspa?crid=1RKYNDFZFV9K5&dib=eyJ2IjoiMSJ9.D9LrCZJnua_keVMLJz2FWhhVJbiJ6dlnOqZ4gzJikw0.Y29jV-luir_nypOKQWGuCDlusQMU0MDZTq49-3jb74M&dib_tag=se&keywords=sunfounder+3+in+1%5C&qid=1784677123&s=electronics&sprefix=sunfounder+3+in+%2Celectronics%2C219&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1> Link |
+|SG90 micro servo motors|for X and Y control of laser turret|$5| https://www.amazon.com/Control-Raspberry-Helicopter-Airplane-Controls/dp/B0DFKPVRC2/ref=sims_dp_d_dex_ai_rank_model_1_d_v1_d_sccl_1_1/134-0101285-2033115?pd_rd_w=48nMP&content-id=amzn1.sym.bb4a0aac-c2b4-4b4b-a0c8-9aa89b28dce3&pf_rd_p=bb4a0aac-c2b4-4b4b-a0c8-9aa89b28dce3&pf_rd_r=RXZXS6B960NGGP7WQ2N1&pd_rd_wg=KKpnf&pd_rd_r=0d3aa9fa-b88f-4bcb-a46d-a6a3a7dd4c6c&pd_rd_i=B0DFKPVRC2&th=1 |
 
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
