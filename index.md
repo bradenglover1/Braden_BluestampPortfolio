@@ -71,7 +71,8 @@ Challenges
 the main challenge for me was remembering how to solder parts. Fortunatly, before I began this project, I was allowed to practice on a spare circuit board. Still, the first slider's soldering is rather mediocre. However, by the time I got to the third slider's soldering, the quality had improved drastically. 
   
 # Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
+<img width="1275" height="1146" alt="image" src="https://github.com/user-attachments/assets/0a5e6473-a6eb-422b-aaaf-d8bb3a6d4931" />
+
 
 # Code
 Here is the code that my car runs on
