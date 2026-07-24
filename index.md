@@ -71,7 +71,8 @@ Challenges
 the main challenge for me was remembering how to solder parts. Fortunatly, before I began this project, I was allowed to practice on a spare circuit board. Still, the first slider's soldering is rather mediocre. However, by the time I got to the third slider's soldering, the quality had improved drastically. 
   
 # Schematics 
-<img width="1275" height="1146" alt="image" src="https://github.com/user-attachments/assets/0a5e6473-a6eb-422b-aaaf-d8bb3a6d4931" />
+<img width="1137" height="995" alt="image" src="https://github.com/user-attachments/assets/7b0f8253-cf61-45b2-87a3-ba96caf16604" />
+
 
 
 # Code
