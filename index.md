@@ -6,7 +6,25 @@ My project is a remote controlled car with a mounted laser turret. The car base 
 |:--:|:--:|:--:|:--:|
 | Braden G | Berkeley High School | Civil Engineering | Incoming Senior
 
-!(<img width="772" height="1022" alt="image" src="https://github.com/user-attachments/assets/7b508eaf-e32c-4904-adb8-cd69337d3143" />)
+<img width="772" height="1022" alt="image" src="https://github.com/user-attachments/assets/7b508eaf-e32c-4904-adb8-cd69337d3143" />
+
+# Modifications
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mZH2pDb5PGI?si=6TCj-q0r3tglfHjh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<h3>Explanation</h3>
+
+The modifications I wanted to add to the car was originally a turret with a mounted laser that could aim 90 degrees up, and 180 degrees left and right, controlled by a the IR remote controller. These were made by CADing them in Onshape, then 3D printing the parts, and finally assembling them onto the car. Another modification I added to the car were brake lights, which would activate if the brake button was pressed. Additionally, I added turn signals, which also activate on the IR remote controller. The last modification I added was a new battery pack, containing 6, 1.5 volt batteries.
+
+<h3>Challenges</h3>
+
+The first challenge I faced was my micro servo motor not working. I spent a long time attempting to change the code in hopes that that was the problem, However, when I was given a secondary motor, it acted normally. The problem had turned out to be that my original motor had overheated and suffered power issues because of it. The second challenge I faced was reading signals sent from the IR remote in the Arduino code. My first problem was that I had not downloaded the correct library. My next problem was that the IR receiver code was not running properly. I eventually solved the issue with the help of an instructor by changing the , and the IR receiver could 
+
+<h3>Takeaways from BSE</h3>
+
+One thing that I took away from BSE was that I should not be scared of coding. I had never really understood how to write code, but was able to vaguely understand it. At BSE, I was able to learn not only how to actually write code in Arduino. Another thing I learned here was how to actually apply code to electronics like through the R3 board. 
+
+
+
   
 # Final Milestone
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mZH2pDb5PGI?si=6TCj-q0r3tglfHjh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -21,7 +39,7 @@ One challenge I faced while getting the code onto the R3 board was the code not 
 
 <h3>Next Steps</h3>
 
-The 2 main next steps for me are, in order, 1. Change the total dependence on sensor movmeent, with remote controlled movements. The best option for this to my knowledge is the IR sensor and remote. 2. 3D print parts for attach a two axis laser pointer turret to the car, hopefully controlled remotly by a jystick, as well as adjust the wiring and circuitry organization on the car.
+The 2 main next steps for me are, in order, 1. Change the total dependence on sensor movement, with remote controlled movements. The best option for this to my knowledge is the IR sensor and remote. 2. 3D print parts for attach a two axis laser pointer turret to the car, hopefully controlled remotely by a joystick, as well as adjust the wiring and circuitry organization on the car.
 
 
 # Second Milestone
@@ -68,7 +86,7 @@ My starter project was the adjustable LED light. It consists of a circuit board,
 
 <h3>Challenges</h3>
 
-the main challenge for me was remembering how to solder parts. Fortunatly, before I began this project, I was allowed to practice on a spare circuit board. Still, the first slider's soldering is rather mediocre. However, by the time I got to the third slider's soldering, the quality had improved drastically. 
+the main challenge for me was remembering how to solder parts. Fortunately, before I began this project, I was allowed to practice on a spare circuit board. Still, the first slider's soldering is rather mediocre. However, by the time I got to the third slider's soldering, the quality had improved drastically. 
   
 # Schematics 
 <img width="1108" height="980" alt="image" src="https://github.com/user-attachments/assets/849796a4-03cb-4e25-b171-b24903e35668" />
