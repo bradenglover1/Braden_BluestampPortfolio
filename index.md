@@ -234,5 +234,5 @@ void loop() {
 # Other Resources/Examples
 - [Sunfounder Project Website](https://docs.sunfounder.com/projects/3in1-kit-v2/en/latest/car_project/car_project.html)
 - [Arduino Library List Downloads](https://www.arduinolibraries.info/)
-- [Onshape Turret CAD]([https://arneshkumar.github.io/arneshbluestamp/](https://cad.onshape.com/documents/3b2a85329e4b22774bdd8409/w/bac16b097f3ac2472d3e22ee/e/9360907a24d82bc812d23724?renderMode=0&uiState=6a678e8972f4f4b117f6afaf))
+- [Onshape Turret CAD](https://cad.onshape.com/documents/3b2a85329e4b22774bdd8409/w/bac16b097f3ac2472d3e22ee/e/9360907a24d82bc812d23724?renderMode=0&uiState=6a678e8972f4f4b117f6afaf)
 
