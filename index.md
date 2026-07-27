@@ -11,15 +11,15 @@ My project is a remote controlled car with a mounted laser turret. The car base 
 # Final Milestone
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mZH2pDb5PGI?si=6TCj-q0r3tglfHjh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Explanation
+<h3>Explanation</h3>
 
 My Final milestone was to download the code onto the car's R3 board and to get it working as a self driving car. I chose this because it was the last thing in my way before the base project would have been completed.
 
-Challenges
+<h3>Challenges</h3>
 
 One challenge I faced while getting the code onto the R3 board was the code not running correctly. I solved this problem by going through each error and adjusting accordingly until the project worked. The main problem was that some movement functions were using analogue movement, while others were using digital movement.
 
-Next Steps
+<h3>Next Steps</h3>
 
 The 2 main next steps for me are, in order, 1. Change the total dependence on sensor movmeent, with remote controlled movements. The best option for this to my knowledge is the IR sensor and remote. 2. 3D print parts for attach a two axis laser pointer turret to the car, hopefully controlled remotly by a jystick, as well as adjust the wiring and circuitry organization on the car.
 
@@ -29,30 +29,30 @@ The 2 main next steps for me are, in order, 1. Change the total dependence on se
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/U_TKEh0B1O8?si=ubsUrD8N63fN-T2N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Explanation
+<h3>Explanation</h3>
 
 My second milestone was to wire all of the modules together, so that when code is downloaded and run on the machine, nothing breaks or stops working.
 
-Challenges
+<h3>Challenges</h3>
 
 One Challenge I faced during this milestone was figuring out how the wiring system works on the car and deciding whether the videos or schematics were better to follow. I solved this problem by following the schematics, as they were clearer to follow than the videos.
 
-Next Steps
+<h3>Next Steps</h3>
 
 The next thing that needs to be done is to write and download the code onto the R3 board of the car and to make sure that all sensors work properly with the code.
 # First Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/teGyxjiyI1c?si=_psBQJFbFq20g04u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Explanation
+<h3>Explanation</h3>
 
 My First Milestone was to acquire all parts for the car, which includes the 2 TT wheels, 1 Universal Wheel, 2 TT motors, the R3 board, L9110 Module, Ultrasonic Module, 2 IR obstacle Avoidance Modules, mini bread board, nuts and bolts to secure them, and wires to connect parts together. Along with Gathering all parts, I also needed to assemble them onto the base plate, so that the car can actually drive.
 
-Challenges
+<h3>Challenges</h3>
 
 One challenge that I faced when gathering and assembling the car was not having correctly sized screws to attach some modules. I solved this problem by asking around and finding replacement screws from the spare parts cabinet.
 
-Next Steps
+<h3>Next Steps</h3>
 
 My plan after this is to wire all the parts together (Milestone 2), and download the self driving car code onto the R3 Board (final Milestone). 
   
@@ -62,11 +62,11 @@ My plan after this is to wire all the parts together (Milestone 2), and download
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TkALr4ICeYA?si=9RuQ742-VpvEKwKQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-Explanation
+<h3>Explanation</h3>
 
 My starter project was the adjustable LED light. It consists of a circuit board, 3 sliders, each controlling the intensity of either red, green, or blue light on the LED, a USB-C adapter, and a multi-colored LED. The main goal of the project is to solder all of the parts to the circuit board in order to make the light color adjustable when powered. 
 
-Challenges
+<h3>Challenges</h3>
 
 the main challenge for me was remembering how to solder parts. Fortunatly, before I began this project, I was allowed to practice on a spare circuit board. Still, the first slider's soldering is rather mediocre. However, by the time I got to the third slider's soldering, the quality had improved drastically. 
   
@@ -227,14 +227,12 @@ void loop() {
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
 | Sunfounder 3-in-1 starter kit | Contains car and all vanilla parts | $60 | [https://www.amazon.com/SunFounder-Compatible-Tutorials-Including-Controller/dp/B0B778L1DZ/ref=sr_1_1_sspa?crid=1RKYNDFZFV9K5&dib=eyJ2IjoiMSJ9.D9LrCZJnua_keVMLJz2FWhhVJbiJ6dlnOqZ4gzJikw0.Y29jV-luir_nypOKQWGuCDlusQMU0MDZTq49-3jb74M&dib_tag=se&keywords=sunfounder+3+in+1%5C&qid=1784677123&s=electronics&sprefix=sunfounder+3+in+%2Celectronics%2C219&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1>](https://www.amazon.com/SunFounder-Compatible-Tutorials-Including-Controller/dp/B0B778L1DZ/ref=sr_1_1_sspa?crid=1RKYNDFZFV9K5&dib=eyJ2IjoiMSJ9.D9LrCZJnua_keVMLJz2FWhhVJbiJ6dlnOqZ4gzJikw0.Y29jV-luir_nypOKQWGuCDlusQMU0MDZTq49-3jb74M&dib_tag=se&keywords=sunfounder+3+in+1%5C&qid=1784677123&s=electronics&sprefix=sunfounder+3+in+%2Celectronics%2C219&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1>) Link |
-|SG90 micro servo motors|for X and Y control of laser turret|$5| (https://www.amazon.com/Control-Raspberry-Helicopter-Airplane-Controls/dp/B0DFKPVRC2/ref=sims_dp_d_dex_ai_rank_model_1_d_v1_d_sccl_1_1/134-0101285-2033115?pd_rd_w=48nMP&content-id=amzn1.sym.bb4a0aac-c2b4-4b4b-a0c8-9aa89b28dce3&pf_rd_p=bb4a0aac-c2b4-4b4b-a0c8-9aa89b28dce3&pf_rd_r=RXZXS6B960NGGP7WQ2N1&pd_rd_wg=KKpnf&pd_rd_r=0d3aa9fa-b88f-4bcb-a46d-a6a3a7dd4c6c&pd_rd_i=B0DFKPVRC2&th=1) |
-| 6 AA battery holder | for holding batteries for car | $8 (3 units) | (https://www.amazon.com/LAMPVPATH-Pack-Battery-Holder-Leads/dp/B07KVJ9FPN/ref=sr_1_4?dib=eyJ2IjoiMSJ9.gE9JrlvyjIIMPFtNhpZMnvqqG9WudRZlN4cDhcYDGTx-s4iu7w4NSW7BE7j3qQUz_okidbFnD5_bUuMA8xtGiND5b47cuhLDnufNUk6AZ_zxYbLtj_vFx67pj8YcaD0bxDcfiW-nPHa2q4hfwCQ1kx3fA3VIG4m_cKfqlWn-dI2AL-z4KJDeKg5oO5fe-xBSIszCWrO4RMcI3gHJskGXm3YyKOZ16S6nKQybJJ_MA48.N1Mt7vJay_rvT3eUBfy9uk4s18cViWmOcaW-YuXQJbo&dib_tag=se&keywords=6+aa+battery+pack&qid=1784842424&sr=8-4) |
-| 6 AA batteries | 9 Volts of power | $7.61 | (https://www.amazon.com/Coppertop-Batteries-Ingredients-Long-lasting-Household/dp/B000IZQO7U/ref=sr_1_5?crid=SWSC123S74T4&dib=eyJ2IjoiMSJ9.Z-T-vAyHiXzMwwnyQViS8qQ8pt1pDDm2NOHHtWUNjk0dTqoyTHxxgvU2pJfok-ia_nXejGcJUKIXgpQDP67oektWkRdjGR7kvkl8Uddht9e4wy2KeQp2UJIqTtOXqPCbzOMTkI8MlqF-tvoRDrW0a4wjv3MdfUuqb_gMgVTdvpGr1-YRX81Ko4Gwpb1rLbJQlA1vx45qDi7E9NemJ5dphX5XTfmUmSemOoYreI2IOluO31n3q669iNcI-vdxvMpdn8kqRc1NHQkLSXl6om8MmGJxFUSu-IiyP8IOerMgMDY.V8jWfl53i-0aiXrwcSC7-JXxaKi2JEQeDVvB7UsODgI&dib_tag=se&keywords=6%2Baa%2Bbattery&qid=1784842576&sprefix=6%2Baa%2Bbattery%2Caps%2C236&sr=8-5&th=1) |
+|SG90 micro servo motors|for X and Y control of laser turret|$5| [https://www.amazon.com/Control-Raspberry-Helicopter-Airplane-Controls/dp/B0DFKPVRC2/ref=sims_dp_d_dex_ai_rank_model_1_d_v1_d_sccl_1_1/134-0101285-2033115?pd_rd_w=48nMP&content-id=amzn1.sym.bb4a0aac-c2b4-4b4b-a0c8-9aa89b28dce3&pf_rd_p=bb4a0aac-c2b4-4b4b-a0c8-9aa89b28dce3&pf_rd_r=RXZXS6B960NGGP7WQ2N1&pd_rd_wg=KKpnf&pd_rd_r=0d3aa9fa-b88f-4bcb-a46d-a6a3a7dd4c6c&pd_rd_i=B0DFKPVRC2&th=1](https://www.amazon.com/Control-Raspberry-Helicopter-Airplane-Controls/dp/B0DFKPVRC2/ref=sims_dp_d_dex_ai_rank_model_1_d_v1_d_sccl_1_1/134-0101285-2033115?pd_rd_w=48nMP&content-id=amzn1.sym.bb4a0aac-c2b4-4b4b-a0c8-9aa89b28dce3&pf_rd_p=bb4a0aac-c2b4-4b4b-a0c8-9aa89b28dce3&pf_rd_r=RXZXS6B960NGGP7WQ2N1&pd_rd_wg=KKpnf&pd_rd_r=0d3aa9fa-b88f-4bcb-a46d-a6a3a7dd4c6c&pd_rd_i=B0DFKPVRC2&th=1) |
+| 6 AA battery holder | for holding batteries for car | $8 (3 units) | [https://www.amazon.com/LAMPVPATH-Pack-Battery-Holder-Leads/dp/B07KVJ9FPN/ref=sr_1_4?dib=eyJ2IjoiMSJ9.gE9JrlvyjIIMPFtNhpZMnvqqG9WudRZlN4cDhcYDGTx-s4iu7w4NSW7BE7j3qQUz_okidbFnD5_bUuMA8xtGiND5b47cuhLDnufNUk6AZ_zxYbLtj_vFx67pj8YcaD0bxDcfiW-nPHa2q4hfwCQ1kx3fA3VIG4m_cKfqlWn-dI2AL-z4KJDeKg5oO5fe-xBSIszCWrO4RMcI3gHJskGXm3YyKOZ16S6nKQybJJ_MA48.N1Mt7vJay_rvT3eUBfy9uk4s18cViWmOcaW-YuXQJbo&dib_tag=se&keywords=6+aa+battery+pack&qid=1784842424&sr=8-4](https://www.amazon.com/LAMPVPATH-Pack-Battery-Holder-Leads/dp/B07KVJ9FPN/ref=sr_1_4?dib=eyJ2IjoiMSJ9.gE9JrlvyjIIMPFtNhpZMnvqqG9WudRZlN4cDhcYDGTx-s4iu7w4NSW7BE7j3qQUz_okidbFnD5_bUuMA8xtGiND5b47cuhLDnufNUk6AZ_zxYbLtj_vFx67pj8YcaD0bxDcfiW-nPHa2q4hfwCQ1kx3fA3VIG4m_cKfqlWn-dI2AL-z4KJDeKg5oO5fe-xBSIszCWrO4RMcI3gHJskGXm3YyKOZ16S6nKQybJJ_MA48.N1Mt7vJay_rvT3eUBfy9uk4s18cViWmOcaW-YuXQJbo&dib_tag=se&keywords=6+aa+battery+pack&qid=1784842424&sr=8-4) |
+| 6 AA batteries | 9 Volts of power | $7.61 | [https://www.amazon.com/Coppertop-Batteries-Ingredients-Long-lasting-Household/dp/B000IZQO7U/ref=sr_1_5?crid=SWSC123S74T4&dib=eyJ2IjoiMSJ9.Z-T-vAyHiXzMwwnyQViS8qQ8pt1pDDm2NOHHtWUNjk0dTqoyTHxxgvU2pJfok-ia_nXejGcJUKIXgpQDP67oektWkRdjGR7kvkl8Uddht9e4wy2KeQp2UJIqTtOXqPCbzOMTkI8MlqF-tvoRDrW0a4wjv3MdfUuqb_gMgVTdvpGr1-YRX81Ko4Gwpb1rLbJQlA1vx45qDi7E9NemJ5dphX5XTfmUmSemOoYreI2IOluO31n3q669iNcI-vdxvMpdn8kqRc1NHQkLSXl6om8MmGJxFUSu-IiyP8IOerMgMDY.V8jWfl53i-0aiXrwcSC7-JXxaKi2JEQeDVvB7UsODgI&dib_tag=se&keywords=6%2Baa%2Bbattery&qid=1784842576&sprefix=6%2Baa%2Bbattery%2Caps%2C236&sr=8-5&th=1](https://www.amazon.com/Coppertop-Batteries-Ingredients-Long-lasting-Household/dp/B000IZQO7U/ref=sr_1_5?crid=SWSC123S74T4&dib=eyJ2IjoiMSJ9.Z-T-vAyHiXzMwwnyQViS8qQ8pt1pDDm2NOHHtWUNjk0dTqoyTHxxgvU2pJfok-ia_nXejGcJUKIXgpQDP67oektWkRdjGR7kvkl8Uddht9e4wy2KeQp2UJIqTtOXqPCbzOMTkI8MlqF-tvoRDrW0a4wjv3MdfUuqb_gMgVTdvpGr1-YRX81Ko4Gwpb1rLbJQlA1vx45qDi7E9NemJ5dphX5XTfmUmSemOoYreI2IOluO31n3q669iNcI-vdxvMpdn8kqRc1NHQkLSXl6om8MmGJxFUSu-IiyP8IOerMgMDY.V8jWfl53i-0aiXrwcSC7-JXxaKi2JEQeDVvB7UsODgI&dib_tag=se&keywords=6%2Baa%2Bbattery&qid=1784842576&sprefix=6%2Baa%2Bbattery%2Caps%2C236&sr=8-5&th=1) |
 
 # Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
+- [Sunfounder Project Website](https://docs.sunfounder.com/projects/3in1-kit-v2/en/latest/car_project/car_project.html)
+- [Arduino Library List Downloads](https://www.arduinolibraries.info/)
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
-To watch the BSE tutorial on how to create a portfolio, click here.
