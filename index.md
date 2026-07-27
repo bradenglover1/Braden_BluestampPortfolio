@@ -71,7 +71,7 @@ My starter project was the adjustable LED light. It consists of a circuit board,
 the main challenge for me was remembering how to solder parts. Fortunatly, before I began this project, I was allowed to practice on a spare circuit board. Still, the first slider's soldering is rather mediocre. However, by the time I got to the third slider's soldering, the quality had improved drastically. 
   
 # Schematics 
-<img width="1108" height="780" alt="image" src="https://github.com/user-attachments/assets/849796a4-03cb-4e25-b171-b24903e35668" />
+<img width="1108" height="880" alt="image" src="https://github.com/user-attachments/assets/849796a4-03cb-4e25-b171-b24903e35668" />
 
 
 
