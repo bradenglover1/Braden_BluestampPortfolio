@@ -77,7 +77,7 @@ the main challenge for me was remembering how to solder parts. Fortunatly, befor
 
 # Code
 Here is the code that my car runs on
-```
+'''C++
 #include <Servo.h> // servo motor library
 #include <IRremote.hpp> // IR remote library
 
@@ -220,7 +220,7 @@ void loop() {
     IrReceiver.resume();  // Enable receiving of the next value   // Waits 1 second
   }
 }
-```
+'''
 # Bill of Materials
 
 | **Part** | **Note** | **Price** | **Link** |
