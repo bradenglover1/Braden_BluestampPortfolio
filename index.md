@@ -9,7 +9,7 @@ My project is a remote controlled car with a mounted laser turret. The car base 
 <img width="772" height="1022" alt="image" src="https://github.com/user-attachments/assets/7b508eaf-e32c-4904-adb8-cd69337d3143" />
 
 # Modifications
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mZH2pDb5PGI?si=6TCj-q0r3tglfHjh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4nZxMffuF1I?si=2wJr_WBAHqzCdq_d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <h3>Explanation</h3>
 
@@ -21,7 +21,7 @@ The first challenge I faced was my micro servo motor not working. I spent a long
 
 <h3>Takeaways from BSE</h3>
 
-One thing that I took away from BSE was that I should not be scared of coding. I had never really understood how to write code, but was able to vaguely understand it. At BSE, I was able to learn not only how to actually write code in Arduino. Another thing I learned here was how to actually apply code to electronics like through the R3 board. 
+One thing that I took away from BSE was that I should not be scared of coding. I had never really understood how to write code, but was able to vaguely understand it. At BSE, I was able to learn not only how to actually write code in Arduino. Another thing I learned here was how to actually apply code to electronics like through the R3 board.
 
 
 
