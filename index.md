@@ -17,7 +17,7 @@ The modifications I wanted to add to the car was originally a turret with a moun
 
 <h3>Challenges</h3>
 
-The first challenge I faced was my micro servo motor not working. I spent a long time attempting to change the code in hopes that that was the problem, However, when I was given a secondary motor, it acted normally. The problem had turned out to be that my original motor had overheated and suffered power issues because of it. The second challenge I faced was reading signals sent from the IR remote in the Arduino code. My first problem was that I had not downloaded the correct library. My next problem was that the IR receiver code was not running properly. I eventually solved the issue with the help of an instructor by changing the , and the IR receiver could 
+The first challenge I faced was my micro servo motor not working. I spent a long time attempting to change the code in hopes that that was the problem, However, when I was given a secondary motor, it acted normally. The problem had turned out to be that my original motor had overheated and suffered power issues because of it. The second challenge I faced was reading signals sent from the IR remote in the Arduino code. My first problem was that I had not downloaded the correct library. My next problem was that the IR receiver code was not running properly. I eventually solved the issue with the help of an instructor by changing the code so that the IR receiver could receive the inputs.
 
 <h3>Takeaways from BSE</h3>
 
