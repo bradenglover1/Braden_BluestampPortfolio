@@ -92,7 +92,12 @@ the main challenge for me was remembering how to solder parts. Fortunately, befo
 <img width="1108" height="980" alt="image" src="https://github.com/user-attachments/assets/849796a4-03cb-4e25-b171-b24903e35668" />
 
 
+# 3D Prints
 
+<img width="1727" height="1231" alt="Screenshot 2026-07-29 123446" src="https://github.com/user-attachments/assets/5d44f21e-de54-43d7-a476-99b68d5e2c02" />
+<img width="1911" height="1061" alt="Screenshot 2026-07-29 123527" src="https://github.com/user-attachments/assets/195a003b-b9cf-474c-896e-ac64dad15aa5" />
+<img width="1855" height="1155" alt="Screenshot 2026-07-29 123547" src="https://github.com/user-attachments/assets/4760c4dc-7d85-4838-94c2-02657e07442a" />
+<img width="1878" height="1071" alt="image" src="https://github.com/user-attachments/assets/067c6387-2465-433a-aa53-74af8ffbbc31" />
 
 # Code
 Here is the code that my car runs on
