@@ -1,14 +1,14 @@
 # Remote Control Car with Laser Turret
 My project is a remote controlled car with a mounted laser turret. The car base is the Sunfounder car, while the mounted turret is made of 3D printed parts able to aim on 2 axes, controlled by 2 servo motors, with a laser attached as the weapon.
 
-<img width="3024" height="4032" alt="IMG_1217" src="https://github.com/user-attachments/assets/9451f22e-39d2-4130-b464-6a86efb7a5b7" />
+<img alt="IMG_1217" src="https://github.com/user-attachments/assets/9451f22e-39d2-4130-b464-6a86efb7a5b7" />
 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Braden G | Berkeley High School | Civil Engineering | Incoming Senior
 
-<img width="772" height="1022" alt="image" src="https://github.com/user-attachments/assets/7b508eaf-e32c-4904-adb8-cd69337d3143" />
+<img  alt="image" src="https://github.com/user-attachments/assets/7b508eaf-e32c-4904-adb8-cd69337d3143" />
 
 # Modifications
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4nZxMffuF1I?si=2wJr_WBAHqzCdq_d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -96,10 +96,10 @@ the main challenge for me was remembering how to solder parts. Fortunately, befo
 
 # 3D Prints
 
-<img width="1727" height="1231" alt="Screenshot 2026-07-29 123446" src="https://github.com/user-attachments/assets/5d44f21e-de54-43d7-a476-99b68d5e2c02" />
-<img width="1911" height="1061" alt="Screenshot 2026-07-29 123527" src="https://github.com/user-attachments/assets/195a003b-b9cf-474c-896e-ac64dad15aa5" />
-<img width="1855" height="1155" alt="Screenshot 2026-07-29 123547" src="https://github.com/user-attachments/assets/4760c4dc-7d85-4838-94c2-02657e07442a" />
-<img width="1878" height="1071" alt="image" src="https://github.com/user-attachments/assets/067c6387-2465-433a-aa53-74af8ffbbc31" />
+<img  alt="Screenshot 2026-07-29 123446" src="https://github.com/user-attachments/assets/5d44f21e-de54-43d7-a476-99b68d5e2c02" />
+<img  alt="Screenshot 2026-07-29 123527" src="https://github.com/user-attachments/assets/195a003b-b9cf-474c-896e-ac64dad15aa5" />
+<img  alt="Screenshot 2026-07-29 123547" src="https://github.com/user-attachments/assets/4760c4dc-7d85-4838-94c2-02657e07442a" />
+<img  alt="image" src="https://github.com/user-attachments/assets/067c6387-2465-433a-aa53-74af8ffbbc31" />
 
 # Code
 Here is the code that my car runs on
