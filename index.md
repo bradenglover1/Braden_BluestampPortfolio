@@ -1,6 +1,8 @@
 # Remote Control Car with Laser Turret
 My project is a remote controlled car with a mounted laser turret. The car base is the Sunfounder car, while the mounted turret is made of 3D printed parts able to aim on 2 axes, controlled by 2 servo motors, with a laser attached as the weapon.
 
+<img width="3024" height="4032" alt="IMG_1217" src="https://github.com/user-attachments/assets/9451f22e-39d2-4130-b464-6a86efb7a5b7" />
+
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
